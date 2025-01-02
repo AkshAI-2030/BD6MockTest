@@ -211,8 +211,8 @@ app.get('/bookings/:packageId', async (req, res) => {
   res.status(200).json(bookings);
 });
 
+module.exports = app;
 module.exports = {
-  app,
   getAllPackages,
   getBookingByPackageId,
   getPackageByDestination,
