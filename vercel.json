@@ -1,5 +1,5 @@
 {
   "version": 2,
-  "builds": [{ "src": "BD6MockTest/index.js", "use": "@vercel/node" }],
-  "routes": [{ "source": "/(.*)", "destination": "BD6MockTest/index.js" }]
+  "builds": [{ "src": "BD6/index.js", "use": "@vercel/node" }],
+  "rewrites": [{ "source": "/(.*)", "destination": "BD6/index.js" }]
 }
